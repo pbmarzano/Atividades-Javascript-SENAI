@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULADORA</title>
+</head>
+<body background="imgFundo.jpg">
+
+  <header>calcule:</header>
+  <section>
+    <form>
+        <table cellspacing="10" celppading="2">
+          <tr>
+            <td colspan="4">
+              <input type="number" name="numero" id="n1">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <input type="number" name="numero" id="n2">
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="+" onclick="somar()"></td>
+            <td><input type="button" value="-" onclick="subtrair()"></td>
+            <td><input type="button" value="*" onclick="multiplicar()"></td>
+            <td><input type="button" value="/" onclick="dividir()"></td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <input type="number" name="numero" id="res" readonly>
+              <!-- <div id="resultado"> -->
+            </td>
+          </tr>
+        </table>
+      </form>    
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
