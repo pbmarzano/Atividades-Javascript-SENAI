@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: rgb(209, 208, 202);
+}
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    background-color: indigo;
+    color: white;
+    padding: 1%;
+}
+
+h1 {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+}
+
+main {
+    border: solid 1px;
+    height: 50%;
+}
+
+div {
+    padding: 30px;
+}
+
+#res0ate9, #res0ate99{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    font-size: x-large;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    background: #7fe6d1;
+}
+}
