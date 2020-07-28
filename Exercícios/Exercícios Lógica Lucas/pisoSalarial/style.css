@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(233, 231, 231);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+main{
+    margin-top: 70px;
+}
+
+input {
+    margin: 17px 0 17px 0;
+    width: 400px;
+    height: 90px;
+}
+
+label {
+    font-family: arial, sans-serif;
+    font-size: 24px;
+}
+
+#salarioAnual{
+    text-align: center;
+    font-size: 30px;
+}
+
+#piso{
+    text-align: center;
+    font-size: 30px;
+}
+
+#botao{
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+#res{
+    margin-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
