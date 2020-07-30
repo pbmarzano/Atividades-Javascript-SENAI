@@ -12,15 +12,13 @@
     </header>
     <body>
         <h1>Es<em>COOL</em>a Legal!</h1>
-        <hr>
-        <h3>Média das Notas:</h1>
-        <p>Para calcular a média da turma, <br> escreva abaixo nome e nota dos alunos:</p>
+        <p id="paragrafo">Para calcular a média da turma, escreva abaixo nome e nota dos alunos:</p>
         <form action="">
             <label for="nome">Nome Aluno:</label>
-            <input required type="text" name="nome" id="nomeAluno" placeholder="Digite o nome do aluno">
+            <input required type="text" name="nome" id="nomeAluno" placeholder="Digite o nome do aluno" onfocus="this.value=''">
             <label for="Notas">Notas:</label>
-            <input required type="number" name="primeira_nota" id="nota1" placeholder="Nota do 1o semestre">
-            <input required type="number" name="segunda_nota" id="nota2" placeholder="Nota do 2o semestre">
+            <input required type="number" name="primeira_nota" id="nota1" placeholder="Nota do 1o semestre" onfocus="this.value=''">
+            <input required type="number" name="segunda_nota" id="nota2" placeholder="Nota do 2o semestre" onfocus="this.value=''">
             <br>
             <button id="validar_dados" type="submit">Validar</button>
             <button id="add_tabela" type="submit">Add na tabela</button>
@@ -30,7 +28,7 @@
         <div class="tabela">
         <table>
             <thead>
-                    <tr>
+                <tr>
                     <th>Aluno</th>
                     <th>Nota 1o Semestre</th>
                     <th>Nota 2o Semestre</th>
@@ -38,14 +36,14 @@
                     <th>Status do Aluno</th>
                 </tr>
             </thead>   
-            <tbody>
+            <tbody id="corpoTabela">
 
             </tbody>        
         </table>
         </div>  
     </body>
     <footer>
-        <p>&copy;Pedro Barros Marzano</p>
+        <p id="footer" onmouseover="linkAzul()" onclick="visitar()">&copy;Pedro Barros Marzano</p>
     </footer>
     <script src="script2.js"></script>
 </body>

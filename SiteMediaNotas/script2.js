@@ -7,6 +7,7 @@ var campo_nota2 = document.querySelector("input[name='segunda_nota']");
 
 
 //funções
+
 function validar_dados (event) {
     event.preventDefault();
     nome = campo_nome.value;
@@ -33,7 +34,21 @@ function validar_dados (event) {
         Média: <strong>${media}</strong>.<br>
          <strong>${status_aluno}</strong>`;
     };
+
+    //evento de mudar a cor caso o APROVADO ou REPROVADO
+    document.querySelector(".alerta").onmousemove = function pintar() {
+        if (status_aluno === "APROVADO") {
+        this.style.color = 'green';
+        } else {
+            this.style.color = 'red';
+        }
+        document.querySelector(".alerta").onmouseout = function sair() {
+            this.style.color = 'black';
+        }
+    }
+
 };
+
 
 function gerar_tabela (event) {
     event.preventDefault();
@@ -62,6 +77,21 @@ function gerar_tabela (event) {
     linha.appendChild(campo_status);
 
     corpo_tabela.appendChild(linha);
+}
+
+//eventos de link no footer: redirecionamento para meu github, e sublinhar link.
+let link = document.getElementById('footer');
+link.onmouseover = function() {
+    link.style.color = "blue";
+    link.style.textDecoration = "underline";
+}
+link.onmouseout = function() {
+    link.style.color = "white";
+    link.style.textDecoration = "none";
+}
+
+function visitar() {
+    window.open("http://www.github.com/pbmarzano", "_blank")
 }
 
 //rotinas principais

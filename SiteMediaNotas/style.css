@@ -1,34 +1,57 @@
 body {
-    background-color: azure;
+    background-color: rgba(120, 141, 141, 0.445);
     text-align: center;
     margin-top: auto;
-    padding: 2px;
+    padding: 10px;
 }
 
 header {
-    background-color: black;
-    color: white;
-    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color:gold;
+    padding: 10px;
 }
 
 h1 {
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    color: tomato;
+    color: rgb(233, 230, 83);
+    background-color: rgba(0, 0, 0, 0.055);
     text-shadow: black 2px 2px 2px;
+}
+
+#paragrafo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 40px -55%;
 }
 
 form {
     margin-bottom: 30px;
 }
 
+label{
+    font-size:20px;
+}
+
 button {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
     padding: 5px;
     margin-top: 15px;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
+
 input{
     padding: 5px;
+    height: 20px;
+    font-size:15px;
 }
+
 .alerta{
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
@@ -37,7 +60,8 @@ input{
 .tabela {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 60%;
+    margin-left: 450px;
 }
   
 .tabela td, .tabela th {
@@ -58,9 +82,9 @@ input{
 }
 
 footer {
-   position: relative;   
+   position: fixed;   
    left: 0;
-   bottom: 0;
+   bottom: 0%;
    width: 100%;
    background-color: black;
    color: white;
