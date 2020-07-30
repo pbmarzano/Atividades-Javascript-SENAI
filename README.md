@@ -9,4 +9,4 @@ ___
 * ex007 [SiteLogin](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/SiteLogin). Feito dia 11/06/2020.
 * ex008 [Site Notas Alunos Interativo](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/SiteMediaNotas). Feito dia 07/07/2020.
 * ex009 [Site Jogo Random Number](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/JogoRandonNumber). Feito dia 11/07/2020.
-* ex010 [Site Lançamento notas com Eventos](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/SiteMediaNotas) Feito dia 30/07/2020.
+* ex010 [Site Lançamento notas com Eventos](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/SiteMediaNotas). Feito dia 30/07/2020.
