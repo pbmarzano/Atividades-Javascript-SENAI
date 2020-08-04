@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequencia Invertida</title>
+</head>
+<body>
+    <h1>sequencia invertida</h1>
+    <div>
+        <p>Digite de 10 a 1 em menos de 8 segundos.</p>
+        <p>Ao terminar. Clique em 'parar contagem'.</p>
+        <input type="button" value="inciar contagem" onclick="contagem = setTimeout(contar, 8000)">
+        <input type="button" value="digitar" onclick="comecar()">
+        <input type="button" value="parar contagem" onclick="stoptimeout(contagem)">
+        <p id="mensagem"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
