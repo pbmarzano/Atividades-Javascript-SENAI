@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: rgba(210, 190, 248, 0.945);
+}
+
+h1 {
+    font-size:60px;
+    text-shadow: rgba(0, 0, 0, 0.288) 3px 3px 3px;
+}
+
+h2{
+    margin-top:80px;
+}
+
+p {
+    font-size: 20px;
+    text-align: unset;
+}
+
+a {
+    color: blue;
+    padding: 10px 5px 20px 5px;
+    font-size:35px;
+    font-family: 'Segoe UI Regular WestEuropean', 'Segoe';
+}
+
+#pdiv {
+    margin-top: 9px;
+    padding: 30px;
+}
+
+#container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: fixed;
+    width: 500px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px;
+    font-size: 38px;
+    box-shadow: rgba(0, 0, 0, 0.288) 3px 3px 10px;
+}
+
+#container1, #container2, #container3, #container4{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px;
+    font-size: 38px;
+    box-shadow: rgba(0, 0, 0, 0.288) 3px 3px 10px;
+}
