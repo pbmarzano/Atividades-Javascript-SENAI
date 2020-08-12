@@ -12,4 +12,4 @@ ___
 * ex010 [Site Lançamento notas com Eventos](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/SiteMediaNotas). Feito dia 30/07/2020.
 * ex011 [Site média Pares](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Site-pares). Feito dia 11/08/2020.
 * ex012 [Site Salada de Frutas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Site-salada). Feito dia 11/08/2020.
-ex013 [Scripts altura joao e multas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/script-sem-html). Feito dia 12/08/2020. 
+* ex013 [Scripts altura joao e multas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/script-sem-html). Feito dia 12/08/2020. 
