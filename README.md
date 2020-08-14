@@ -14,4 +14,4 @@ ___
 * ex012 [Site Salada de Frutas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Site-salada). Feito dia 11/08/2020.
 * ex013 [Scripts altura joao e multas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/script-sem-html). Feito dia 12/08/2020. 
 * ex014 [Script vagas hotel](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/leitos-hotel). Feito dia 14/08/2020.
-* ex014 [Script 0 a 50](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/0-50). Feito dia 14/08/2020.
+* ex015 [Script 0 a 50](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/0-50). Feito dia 14/08/2020.
