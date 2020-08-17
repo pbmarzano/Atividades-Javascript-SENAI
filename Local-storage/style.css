@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(211, 217, 253);
+    text-align: center
+}
+
+h1 {
+    margin-top: 3rem;
+}
+
+h3 {
+    margin-top: 7rem;
+}
+
+#container {
+    background-color: rgba(128, 128, 128, 0.247);
+    border: 1px solid black;
+    padding: 1.3rem;
+    margin: 20px 570px 20px 570px;
+    box-shadow: 4px 4px 4px rgba(143, 137, 137, 0.568);
+}
+
+#container input {
+    padding: 1.2rem;
+    margin: 0.2rem;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+div p {
+    text-align: center;
+    font-size: 2rem;
+}
