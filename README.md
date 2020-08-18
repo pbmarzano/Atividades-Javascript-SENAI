@@ -17,5 +17,5 @@ ___
 * ex015 [Script 0 a 50](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/0-50). Feito dia 14/08/2020.
 * ex016 [Local Storage](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Local-storage). Feito dia 17/08/2020.
 * ex017 [Validacao CPF](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Teste-cpf). Feito dia 18/08/2020.
-* ex018 [Everest] (https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/everest) Feito dia 15/08/2020.
+* ex018 [Everest](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/everest) Feito dia 15/08/2020.
 * ex019 [Guloseimas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/guloseimas-cinema). Feito dia 18/08/2020.
