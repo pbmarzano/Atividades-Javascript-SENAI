@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guloseimas Cinema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CINEMATECA</h1>
+
+    <div id="container">
+        <h3>Faça seu pedido:</h3>
+        <label for="pipoca">Pipoca R$6,00:</label>
+        <input type="number" id="pipoca" placeholder="quantidade" min="0">
+        <br>
+        <label for="chocolate">Chocolate R$3,00:</label>
+        <input type="number" id="chocolate" placeholder="quantidade" min="0">
+        <br>
+        <label for="refri">Refrigerante R$8,50:</label>
+        <input type="number" id="refri" placeholder="quantidade" min="0">
+        <br>
+        <input id="button" type="button" value="Gerar Pedido" onclick="calcular()">
+    </div>
+    
+    <div>
+        <p id="res"></p>
+        <p id="resTotal"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
