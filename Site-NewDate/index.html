@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Date Check</title>
+</head>
+<body>
+    <div id="input">
+        <input type="button" value="Check Date" onclick="dataAtual()">
+    
+        <p id="nd"></p>
+        <p id="nd2"></p>
+        <p id="flag"></p>
+        <p id="day"></p>
+        <p id="date"></p>
+        <p id="month"></p>
+        <p id="year"></p>
+        <p id="dateNow"></p>
+        <p id="zoneOffset"></p>
+    </div>
+
+    <script>
+        function dataAtual(){
+            let mesExt = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+            let diaExt = ['domingo','segunda','terça','quarta','quinta','sexta','sábado']
+
+            let nd = new Date()
+            let nd2 = new Date('08-28-2020 10:00')
+            let nd3 = new Date(2020,07)
+
+            let day = nd.getDay()
+            let date = nd.getDate()
+            let month = nd.getMonth()
+            let year = nd.getFullYear()
+            let dateNow = Date.now()
+            let zoneOffset = nd.getTimezoneOffset() 
+
+
+            document.getElementById("nd2").innerHTML += `${nd3}`
+            document.getElementById("flag").innerHTML += `${nd>nd2}`
+            document.getElementById("nd").innerHTML += `Data: ${nd}` 
+            document.getElementById("day").innerHTML += `Dia da semana: ${diaExt[day]}`
+            document.getElementById("date").innerHTML += `Dia do mês: ${date}`
+            document.getElementById("month").innerHTML += `Mês: ${mesExt[month]}`
+            document.getElementById("year").innerHTML += `Ano: ${year}`
+            document.getElementById("dateNow").innerHTML += `Milissegundos desde 1o de Janeiro de 1970: ${dateNow}ms`
+            document.getElementById("zoneOffset").innerHTML += `O deslocamento de fuso horário entre o UTC (Tempo Universal Coordenado) e o horário local: -${zoneOffset} minutos`
+        }
+
+    </script>
+</body>
+</html>

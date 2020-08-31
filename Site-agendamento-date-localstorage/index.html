@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agendamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="images/image.jpg">
+    <h1>Le Peau-Drain Gourmet</h1>
+    <h3>Reservas</h3>
+
+    <div id="container">
+
+        <label for="nome"><strong>Nome e sobrenome:</strong></label><br>
+        <input type="text" id="nome" onfocus="this.value=''"><br>
+        
+        <label for="nPessoas"><strong>Numero de pessoas:</strong></label><br>
+        <input type="text" id="quantidade" onfocus="this.value=''"><br>
+
+        <label for="date"><strong>Data da reserva:</strong></label><br>
+        <input type="date" id="dateInput" min="2020-31-08">
+
+        <input type="button" value="Reservar" onclick="reservar()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
