@@ -19,3 +19,4 @@ ___
 * ex017 [Validacao CPF](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Teste-cpf). Feito dia 18/08/2020.
 * ex018 [Everest](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/everest). Feito dia 15/08/2020.
 * ex019 [Guloseimas](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Exerc%C3%ADcios/Exerc%C3%ADcios%20L%C3%B3gica%20Lucas/guloseimas-cinema). Feito dia 18/08/2020.
+* ex020 [Agendamento Data](https://github.com/pbmarzano/Atividades-Javascript-SENAI/tree/master/Site-agendamento-date-localstorage). Feito Dia 31/08/2020.
