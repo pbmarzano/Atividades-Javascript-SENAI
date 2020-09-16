@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fila</title>
+</head>
+<body>
+    <h1>Fila do cinema</h1>
+    <p>Clique no botão abaixo para apresentar as informações do próximo da fila</p>
+    <input type="button" value="Apresentar" id="apresentar">
+
+    <div id="res"></div>
+
+    <script>
+            var fila = [
+                {
+                nome: "Bruno",
+                idade: 21,
+                genero: "Masculino",
+                formaDePagamento: "Dinheiro",
+                filme: "Titanic",
+                },
+                {
+                nome: "Leandro",
+                idade: 25,
+                genero: "Masculino",
+                formaDePagamento: "Dinheiro",
+                filme: "Interestelar",
+                },
+                {
+                nome: "Lara",
+                idade: 18,
+                genero: "Feminino",
+                formaDePagamento: "Cartao",
+                filme: "Titanic",
+                },
+                {
+                nome: "Pedro",
+                idade: 16,
+                genero: "Masculino",
+                formaDePagamento: "Cartao",
+                filme: "Interestelar",
+                },
+                {
+                nome: "Mikaella",
+                idade: 20,
+                genero: "Feminino",
+                formaDePagamento: "Cartao",
+                filme: "Titanic",
+                },
+            ];
+
+
+            document.getElementById('apresentar').onclick = function () {
+
+
+                if (fila.length == 0) {
+
+                    alert("não há mais ninguém na fila");
+                    
+
+                } else {
+
+                    res.innerHTML = 
+                    "Nome: " + fila[0].nome + "<br>" +
+                    "Idade: " + fila[0].idade + "<br>" +
+                    "Genero: " + fila[0].genero + "<br>" +
+                    "Forma de Pagamento: " + fila[0].formaDePagamento + "<br>" +
+                    "Filme: " + fila[0].filme;
+
+                    fila.shift()
+
+                }
+            }
+    </script>
+</body>
+</html>
