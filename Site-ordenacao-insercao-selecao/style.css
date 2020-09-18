@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(177, 176, 172, 0.534);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#container {
+    background-color: rgb(228, 220, 220);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 4rem 30rem;
+    box-shadow: 1px 1px 3px;
+}
+
+#container input {
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+}
+
+#container button {
+    background-color: rgb(54, 51, 51);
+    color: white;
+    height: 30px;
+    margin: 0.1rem 0.3rem 1.2rem 0.3rem;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#arr,
+#arrIns,
+#arrSel {
+    margin-left: 20rem;
+    font-size: 2rem;
+}
+
+#container #limpar {
+    background-color: rgb(165, 41, 41);
+}

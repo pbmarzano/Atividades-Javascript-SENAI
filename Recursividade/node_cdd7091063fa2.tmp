@@ -1,0 +1,7 @@
+let n = 54
+
+for ( i=n ; i = 1 ; i-- ) {
+    console.log(n*n-1)
+    n--
+}
+
