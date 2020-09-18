@@ -28,11 +28,12 @@ function ordenarInsercao() {
         }
         array[j + 1] = valor;
     }
-    alert(array);
+    
     document.getElementById("arrIns").innerHTML = `Ordenado por inserção: ${JSON.stringify(array)}`
     var timeEnd = performance.now();
-    
-    alert("Duração " + (timeEnd - timeStart) + " ms");
+
+    var tempo = timeEnd - timeStart
+    document.getElementById("arrIns").innerHTML += ` Duração ${tempo.toFixed(5)}ms`
 }
 
 function ordenarSelecao() {
@@ -50,9 +51,10 @@ function ordenarSelecao() {
         array[index] = array[i];
         array[i] = menorNumero;
     }
-    alert(array)
+    
     document.getElementById("arrSel").innerHTML = `Ordenado por seleção: ${JSON.stringify(array)}`
 
     var timeEnd = performance.now();
-    alert("Duração " + (timeEnd - timeStart) + " ms");
+    var tempo = timeEnd - timeStart
+    document.getElementById("arrSel").innerHTML += ` Duração ${tempo.toFixed(5)}ms`
 }
