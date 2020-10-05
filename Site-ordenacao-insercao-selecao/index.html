@@ -10,11 +10,12 @@
     <h1>Exercício Ordenação</h1>
     <hr>
     <div id="container">
-        <input type="number" name="numbers" id="n" onfocus="this.value=''">
+        <input type="number" name="numbers" id="numeroInput" onfocus="this.value=''">
         <button id="btnInsert" onclick="inserir()">Inserir número</button>
         <button id="btnArr" onclick="mostrar()">Mostrar array</button><br>
         <button id="ordIns" onclick="ordenarInsercao(array)">Ordenar por inserção</button>
         <button id="ordSel" onclick="ordenarSelecao(array)">Ordenar por seleção</button>
+        <button id="ordBub" onclick="ordenarBubble(array)">Ordenar por bubble</button>
         <button id="limpar" onclick="limpar()">Limpar tudo</button>
     </div>
     
@@ -23,6 +24,8 @@
     <div id="arrIns"></div>
 
     <div id="arrSel"></div>
+
+    <div id="arrBub"></div>
 
     <script src="script.js"></script>
 </body>

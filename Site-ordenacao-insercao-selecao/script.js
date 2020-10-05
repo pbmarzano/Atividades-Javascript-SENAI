@@ -1,19 +1,25 @@
-var n = document.getElementById("n");
+var n = document.getElementById("numeroInput");
 var array = []
+var resArray = document.getElementById("arr")
+var arrIns = document.getElementById("arrIns")
+var arrSel = document.getElementById("arrSel")
+var arrBub = document.getElementById("arrBub")
 
 function inserir() {
     array.push(Number(n.value))
+    n.value = ""
 }
 
 function mostrar() {
-    document.getElementById("arr").innerHTML = "Array input: " + array.join(", ")
+    resArray.innerHTML = "Array input: " + array.join(", ")
 }
 
 function limpar() {
-    document.getElementById("n").value = ""
-    document.getElementById("arr").innerHTML = ""
-    document.getElementById("arrIns").innerHTML = ""
-    document.getElementById("arrSel").innerHTML = ""
+    n.value = ""
+    resArray.innerHTML = ""
+    arrIns.innerHTML = ""
+    arrSel.innerHTML = ""
+    arrBub.innerHTML = ""
     array = [] 
 }
 
@@ -29,11 +35,11 @@ function ordenarInsercao() {
         array[j + 1] = valor;
     }
     
-    document.getElementById("arrIns").innerHTML = `Ordenado por inserção: ${JSON.stringify(array)}`
+    arrIns.innerHTML = `Ordenado por inserção: ${JSON.stringify(array)}. `
     var timeEnd = performance.now();
 
     var tempo = timeEnd - timeStart
-    document.getElementById("arrIns").innerHTML += ` Duração ${tempo.toFixed(5)}ms`
+    arrIns.innerHTML += `Duração: ${tempo.toFixed(5)}ms`
 }
 
 function ordenarSelecao() {
@@ -52,9 +58,30 @@ function ordenarSelecao() {
         array[i] = menorNumero;
     }
     
-    document.getElementById("arrSel").innerHTML = `Ordenado por seleção: ${JSON.stringify(array)}`
+    arrSel.innerHTML = `Ordenado por seleção: ${JSON.stringify(array)}. `
 
     var timeEnd = performance.now();
     var tempo = timeEnd - timeStart
-    document.getElementById("arrSel").innerHTML += ` Duração ${tempo.toFixed(5)}ms`
+    arrSel.innerHTML += `Duração: ${tempo.toFixed(5)}ms`
+}
+
+function ordenarBubble() {
+    console.log("iniciando bubble")
+    var timeStart = performance.now();
+
+    let trocado = false
+    let end = arr.length - 1
+    for (let i = 0, j = i; i < end; i++, j++ ) {
+        alert(i, j);
+        if (array[i] > array[j]) {
+            trocado = true
+            [array[i], array[j]] = [array[j], array[i]]
+        }
+    } end--
+
+    arrBub.innerHTML = `Ordenado por bubble: ${JSON.stringify(array)}. `
+
+    var timeEnd = performance.now();
+    var tempo = timeEnd - timeStart
+    arrBub.innerHTML += `Duração: ${tempo.toFixed(5)}ms`
 }
